@@ -75,3 +75,34 @@ to link repository
 --> git remote add origin https://github.com/imkhanng/my-app-24.git
 to check repository linked or not 
 --> git remote -v
+
+process :
+=========
+
+to send files to repository
+--> git add .
+changes --> staged changes
+
+--> git commit -m "XXXXX"
+git commit will be stored locally until we push 
+
+--> git push 
+
+--> git push --set-upstream origin master -f  (forcefully)
+
+to check brancehs
+--> git branch 
+
+to fetch data between git and git repository
+git fetch 
+
+to switch to any branch git checkout and branch name
+--> git checkout dashboard
+
+
+
+
+
+
+
+
