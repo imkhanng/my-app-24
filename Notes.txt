@@ -1,0 +1,77 @@
+Angular Installation
+====================
+1).NodeJS Installation
+in command prompt
+
+check:npm -v
+        node -v
+
+2) Angular Installation
+npm install -g @angular/cli@15
+
+check : ng version
+
+3) create an angular application
+--> Open Command prompt
+--> cd desktop
+--> ng new my-app
+        --> routing
+        --> css
+    
+4) Run Angular Applicaiton
+in terminal type ng serve
+ng serve
+
+**)open powershell as administrator
+**)get-executiionpolicy 
+**) set-executiionpolicy unrestricted
+
+
+5).To create component in angular 
+--> ng g c login
+(angular generate component component name)
+
+6).to do routing login component to home page 
+  <router-outlet></router-outlet> insert into app.component.html   
+
+7.Now routing login page to home page and routing 
+into app.routing.module.ts 
+const routes: Routes = [
+  {path:"login",component:LoginComponent},
+  {path:"",component:LoginComponent}
+];
+
+
+routing 
+1.parent
+2.child
+3.default
+4.error
+
+
+to open directly from cmd --> code .
+
+git and github
+
+version control and code repository
+
+Git explanation
+===============
+
+--> git config --global user.name "imkhanng"
+--> git config --global user.email "imkhan.js@gmail.com"
+
+
+check:
+--> git config --list
+
+to upload repository to the git hub copy the link from github   
+
+commands:
+
+--> 1.git init
+
+to link repository 
+--> git remote add origin https://github.com/imkhanng/my-app-24.git
+to check repository linked or not 
+--> git remote -v
